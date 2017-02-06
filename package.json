@@ -1,0 +1,17 @@
+{
+  "name": "usermanageserver",
+  "version": "1.0.0",
+  "description": "manage users. implementing in node server as api.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "shashikant",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "mysql": "mysqljs/mysql"
+  }
+}
